@@ -2,5 +2,6 @@
 	background-color: aqua;
 
 	display: grid;
-	grid-template-columns: 200px 200px 200px;
+	/* repeat(6,1fr) means 1fr * 6 */
+	grid-template-columns: 20px repeat(6, 1fr) 20px;
   }
