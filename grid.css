@@ -7,6 +7,8 @@
 	/* repeat(6,1fr) means 1fr * 6 */
 	grid-template-columns: repeat(3, 1fr);
 	grid-auto-rows: 100px;
+	column-gap: 10px;
+	row-gap: 1em;
   }
 
   .box1 {
