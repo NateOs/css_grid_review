@@ -4,4 +4,5 @@
 	display: grid;
 	/* repeat(6,1fr) means 1fr * 6 */
 	grid-template-columns: 20px repeat(6, 1fr) 20px;
+	grid-auto-rows: minmax(100px, auto);
   }
