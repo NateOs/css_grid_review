@@ -18,7 +18,7 @@
 	  grid-row-end: 3;
 	  /* without subgrid, grid created has no relation to parents, and doesnt respect parents gutters , soln  is subgrid */
 	  display: grid;
-	  grid-template-columns: repeat(3,1fr);
+	  grid-template-columns: subgrid;
   }
   .box2 {
 	  grid-column-start: 1;
